@@ -1,5 +1,14 @@
 :root {
+  --darkBlue: #11005e;
+  --midBlue: #2900de;
+  --lightBlue: #6144e3;
+  --whitish: #f4f4ff;
+  --blackish: #000114;
+  font-size: 12px;
+  background-color: var(--darkBlue);
+}
+* {
   margin: 0;
   padding: 0;
-  font-size: 12px;
+  box-sizing: border-box;
 }

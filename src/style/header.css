@@ -1,11 +1,13 @@
 header {
   width: 100%;
+  padding-top: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: var(--whitish);
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: flex-start;
-  padding-top: 0.5rem;
-  margin-bottom: 1rem;
+  color: var(--darkBlue);
 }
 
 h1,
