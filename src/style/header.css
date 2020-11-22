@@ -1,0 +1,34 @@
+header {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+h1,
+nav,
+ul {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+li {
+  margin: 0 0.2rem;
+}
