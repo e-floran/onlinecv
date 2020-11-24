@@ -15,7 +15,10 @@ function Navbar(){
                 <button type="button" onClick={handleOpen}>Menu</button>
                 <li className={
                     open?"displayed" : ""
-                }>Home</li>
+                }>Accueil</li>
+                <li className={
+                    open?"displayed" : ""
+                }>Compétences</li>
                 <li className={
                     open?"displayed" : ""
                 }>Formations</li>

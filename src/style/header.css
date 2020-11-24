@@ -23,14 +23,26 @@ h1 {
   background-color: var(--whitish);
 }
 nav {
-  width: 20%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 ul {
+  width: 100%;
   list-style: none;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  z-index: 10;
+}
+ul:hover,
+button:hover,
+li:hover {
+  cursor: pointer;
 }
 
 button {
@@ -38,15 +50,19 @@ button {
   font-size: 1.25rem;
   color: var(--lightBlue);
   border: none;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1rem;
 }
 
 li {
-  padding: 0 0.2rem;
+  width: 100%;
+  padding: 0.5rem 1rem;
   font-size: 1.25rem;
   background-color: var(--lightBlue);
   color: var(--whitish);
   display: none;
+}
+li:hover {
+  background-color: var(--midBlue);
 }
 .displayed {
   display: inline;

@@ -1,7 +1,7 @@
 import '../style/home.css';
 function Home(){
     return(
-        <div>
+        <div className="homeContainer">
             <h2>Home page</h2>
         </div>
     )
