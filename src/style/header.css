@@ -1,11 +1,9 @@
 header {
   width: 100%;
-  padding-top: 0.5rem;
   margin-bottom: 1rem;
-  background-color: var(--whitish);
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: right;
   align-items: flex-start;
   color: var(--darkBlue);
 }
@@ -21,16 +19,35 @@ h1 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  background-color: var(--whitish);
 }
-
+nav {
+  width: 20%;
+}
 ul {
   list-style: none;
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: flex-start;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: var(--whitish);
+  font-size: 1.25rem;
+  color: var(--lightBlue);
+  border: none;
+  padding: 0.5rem 1.5rem;
 }
 
 li {
-  margin: 0 0.2rem;
+  padding: 0 0.2rem;
+  font-size: 1.25rem;
+  background-color: var(--lightBlue);
+  color: var(--whitish);
+  display: none;
+}
+.displayed {
+  display: inline;
 }
