@@ -4,9 +4,9 @@ import "../style/header.css";
 function Header(){
     return(
         <header>
-            <h1>Floran Eiclies</h1>
+            <h1 className="headerTitle">Floran Eiclies</h1>
             <Navbar />
-            <h3>Développeur web</h3>
+            <h3 className="headerSubTitle">Développeur web</h3>
         </header>
     )
 }

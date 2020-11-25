@@ -10,8 +10,7 @@ function Navbar(){
         };
     }
     return(
-        <nav>
-            <ul>
+            <ul className="headerMenu">
                 <button type="button" onClick={handleOpen}>Menu</button>
                 <li className={
                     open?"displayed" : ""
@@ -26,7 +25,6 @@ function Navbar(){
                     open?"displayed" : ""
                 }>Expériences</li>
             </ul>
-        </nav>
     )
 }
 
