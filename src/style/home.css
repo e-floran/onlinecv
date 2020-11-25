@@ -7,10 +7,35 @@
   justify-content: left;
   align-items: center;
 }
+
 h2,
 p {
   color: var(--whitish);
-}
-.description {
+  margin: 0 0 0.5rem 0;
   width: 100%;
+}
+.description,
+.knowMe {
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 0 1.5rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+p:nth-of-type(even) {
+  text-align: right;
+}
+p:nth-of-type(odd) {
+  text-align: left;
+}
+.knowDetails {
+  width: 50%;
+  margin: 0;
+  padding: 0 1rem 0 0;
+}
+.profilePic {
+  width: 50%;
+  border: 1px solid var(--whitish);
 }
