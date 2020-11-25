@@ -5,6 +5,7 @@ function Header(){
     return(
         <header>
             <h1>Floran Eiclies</h1>
+            <h3>Développeur web</h3>
             <Navbar />
         </header>
     )

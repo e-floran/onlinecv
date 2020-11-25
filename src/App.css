@@ -1,7 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Squada+One&display=swap");
 .App {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: flex-start;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+button {
+  font-family: "Righteous", cursive;
+}
+p,
+a {
+  font-family: "Squada One", cursive;
 }

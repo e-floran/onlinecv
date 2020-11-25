@@ -3,7 +3,7 @@ header {
   margin-bottom: 1rem;
   display: flex;
   flex-flow: row wrap;
-  justify-content: right;
+  justify-content: left;
   align-items: flex-start;
   color: var(--darkBlue);
 }
@@ -18,8 +18,14 @@ h1 {
   width: 100%;
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 1rem;
-  padding-top: 0.5rem;
+  padding: 0.5rem 0 0.2rem 0;
+  background-color: var(--whitish);
+}
+h3 {
+  width: 100%;
+  text-align: right;
+  font-size: 1rem;
+  padding: 0.5rem 0;
   background-color: var(--whitish);
 }
 nav {
@@ -36,7 +42,7 @@ ul {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
   z-index: 10;
 }
 ul:hover,

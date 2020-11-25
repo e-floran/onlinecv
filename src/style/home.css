@@ -1,7 +1,16 @@
 .homeContainer {
+  width: 100%;
   position: absolute;
-  top: 10rem;
+  top: 8rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: left;
+  align-items: center;
 }
-h2 {
+h2,
+p {
   color: var(--whitish);
+}
+.description {
+  width: 100%;
 }

@@ -1,8 +1,9 @@
+import Description from "./Description";
 import '../style/home.css';
 function Home(){
     return(
         <div className="homeContainer">
-            <h2>Home page</h2>
+            <Description />
         </div>
     )
 }
