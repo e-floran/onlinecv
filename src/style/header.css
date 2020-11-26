@@ -31,29 +31,33 @@ header {
 }
 .headerMenu {
   width: 100%;
-  margin: 0;
-  padding: 0;
   grid-area: headerMenu;
-  list-style: none;
   display: grid;
   grid-template-columns: 100%;
   grid-gap: 0;
   z-index: 10;
 }
 
-ul:hover,
-button:hover,
+.headerList:hover,
+.headerButton:hover,
 li:hover {
   cursor: pointer;
 }
 
-button {
+.headerList {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+}
+
+.headerButton {
   width: 50%;
+  padding: 0.47rem 1rem;
   background-color: var(--midBlue);
   font-size: 1.25rem;
   color: var(--whitish);
   border: none;
-  padding: 0.5rem 1rem;
 }
 
 li {

@@ -6,7 +6,7 @@ function Header(){
         <header>
             <h1 className="headerTitle">Floran Eiclies</h1>
             <Navbar />
-            <h3 className="headerSubTitle">Développeur web</h3>
+            <h4 className="headerSubTitle">Développeur web</h4>
         </header>
     )
 }

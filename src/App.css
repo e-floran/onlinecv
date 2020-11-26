@@ -12,10 +12,13 @@ h4,
 h5,
 h6,
 li,
-button {
+button,
+label {
   font-family: "Righteous", cursive;
 }
 p,
-a {
+a,
+input,
+textarea {
   font-family: "Squada One", cursive;
 }
