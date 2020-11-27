@@ -23,6 +23,10 @@ function Langages(){
             level:2,
         }
     ]
+    const langages=[];
+    for (let i=0;i<myLangages.length;i++) {
+        langages.push(<Skill name={myLangages[i].name} level={myLangages[i].level}/>);
+    };
     return(
         <section className="langages">
             <article className="sectionTitle">
@@ -31,7 +35,7 @@ function Langages(){
                 </div>
                 <h3>Langages</h3>
             </article>
-            <Skill name={myLangages[0].name}/>
+            {langages}
         </section>
     )
 };

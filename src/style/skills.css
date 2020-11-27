@@ -65,12 +65,24 @@ h3 {
 .skillContainer {
   width: 100%;
   display: grid;
-  grid-template-columns: 16% repeat(12, 7%);
+  grid-template-columns: 20% 80%;
   grid-gap: 0;
   margin-left: 0.5rem;
 }
+.pointsContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  grid-gap: 0;
+}
 .skillPoint {
   background: var(--lightBlue);
+  height: 0.5rem !important;
+  width: 1rem !important;
+  margin-top: 0.4rem;
+}
+.noPoint {
+  background: none;
   height: 0.5rem !important;
   width: 1rem !important;
   margin-top: 0.4rem;
