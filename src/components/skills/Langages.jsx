@@ -21,11 +21,15 @@ function Langages(){
         {
             name:"SQL",
             level:2,
+        },
+        {
+            name:"Python",
+            level:2,
         }
     ]
     const langages=[];
     for (let i=0;i<myLangages.length;i++) {
-        langages.push(<Skill name={myLangages[i].name} level={myLangages[i].level}/>);
+        langages.push(<Skill key={myLangages[i].name} name={myLangages[i].name} level={myLangages[i].level}/>);
     };
     return(
         <section className="skillset">

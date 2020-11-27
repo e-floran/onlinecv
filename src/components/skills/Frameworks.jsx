@@ -17,7 +17,7 @@ function Frameworks(){
     ]
     const frameworks=[];
     for (let i=0;i<myFrameworks.length;i++) {
-        frameworks.push(<Skill name={myFrameworks[i].name} level={myFrameworks[i].level}/>);
+        frameworks.push(<Skill key={myFrameworks[i].name} name={myFrameworks[i].name} level={myFrameworks[i].level}/>);
     };
     return(
         <section className="skillset">

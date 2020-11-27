@@ -14,10 +14,26 @@ function Tools(){
             name:"VS code",
             level:7,
         },
+        {
+            name:"Bureautique",
+            level:10,
+        },
+        {
+            name:"Échanges",
+            level:10,
+        },
+        {
+            name:"CMS, design",
+            level:12,
+        },
+        {
+            name:"Graphisme",
+            level:7,
+        },
     ]
     const tools=[];
     for (let i=0;i<myTools.length;i++) {
-        tools.push(<Skill name={myTools[i].name} level={myTools[i].level}/>);
+        tools.push(<Skill key={myTools[i].name} name={myTools[i].name} level={myTools[i].level}/>);
     };
     return(
         <section className="skillset">

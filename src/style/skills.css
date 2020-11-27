@@ -65,9 +65,8 @@ h3 {
 .skillContainer {
   width: 100%;
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 24% 76%;
   grid-gap: 0;
-  margin-left: 0.5rem;
 }
 .pointsContainer {
   width: 100%;
