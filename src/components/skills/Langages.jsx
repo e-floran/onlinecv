@@ -28,7 +28,7 @@ function Langages(){
         langages.push(<Skill name={myLangages[i].name} level={myLangages[i].level}/>);
     };
     return(
-        <section className="langages">
+        <section className="skillset">
             <article className="sectionTitle">
                 <div className="pulsarContainer">
                     <div className="pulsar"></div>
