@@ -103,9 +103,11 @@ p:nth-of-type(odd) {
   grid-gap: 0;
 }
 #homeForm {
+  display: none;
   display: grid;
   grid-template-columns: 100%;
   grid-gap: 0;
+  display: none;
   margin-top: 0.5rem;
 }
 label {
@@ -113,8 +115,8 @@ label {
 }
 input,
 textarea {
-  background-color: var(--midBlue);
-  color: var(--whitish);
+  background-color: var(--lightBlue);
+  color: var(--blackish);
   border: 0.1rem solid var(--whitish);
 }
 input {

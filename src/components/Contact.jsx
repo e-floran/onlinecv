@@ -9,7 +9,7 @@ function Contact(){
                 </div>
                 <h3>Contactez-moi</h3>
             </article>
-            <p>Vous souhaitez me proposer une opportunité professionnelle, ou tout simplement échanger ? N'hésitez pas à me contacter à l'aide du formulaire ou de passer par un des réseaux accessibles ci-dessous.</p>
+            <p>Vous souhaitez me proposer une opportunité professionnelle, ou tout simplement échanger ? N'hésitez pas à me contacter à l'aide de l'un des réseaux accessibles ci-dessous.</p>
             <form id="homeForm">
                 <label htmlFor="formName">Votre nom</label>
                 <input id="formName" type="text" form="homeForm" placeholder="Votre nom" required></input>
