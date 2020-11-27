@@ -1,0 +1,170 @@
+.skillsContainer {
+  width: 100%;
+  position: absolute;
+  top: 8rem;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+}
+
+h3,
+p,
+label {
+  color: var(--whitish);
+  margin: 0 0 0.5rem 0;
+  width: 100%;
+}
+h3 {
+  font-size: 1.5rem;
+  color: var(--lightBlue) !important;
+}
+.sectionTitle {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-gap: 0;
+  padding: 0;
+  margin: 0;
+}
+.langages {
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 0 1.5rem 0;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+}
+.pulsarContainer {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.pulsar {
+  background: var(--lightBlue);
+  box-shadow: 0 0 0 0 rgba(123, 226, 230, 1);
+  height: 1rem !important;
+  width: 1rem !important;
+  margin-top: 0.4rem;
+  animation: pulsed 2s infinite;
+}
+
+@keyframes pulsed {
+  0% {
+    box-shadow: 0 0 0 0 rgba(123, 226, 230, 0.7);
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgba(123, 226, 230, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(123, 226, 230, 0);
+  }
+}
+.skillContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 16% repeat(12, 7%);
+  grid-gap: 0;
+  margin-left: 0.5rem;
+}
+.skillPoint {
+  background: var(--lightBlue);
+  height: 0.5rem !important;
+  width: 1rem !important;
+  margin-top: 0.4rem;
+}
+/* 
+
+
+
+p:nth-of-type(even) {
+  text-align: right;
+}
+p:nth-of-type(odd) {
+  text-align: left;
+}
+.knowMe {
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 0 1.5rem 0;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+}
+.knowMe .sectionTitle {
+  grid-row: 1/2;
+}
+.knowDetails {
+  width: 100%;
+  margin: 0;
+  padding: 0 1rem 0 0;
+  grid-row: 3/4;
+}
+
+.profilePic {
+  width: 100%;
+  border: 0.05rem solid var(--whitish);
+  grid-row: 2/3;
+  margin-bottom: 1rem;
+}
+
+.formContainer {
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 0 1.5rem 0;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+}
+#homeForm {
+  display: none;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+  display: none;
+  margin-top: 0.5rem;
+}
+label {
+  margin-top: 1rem;
+}
+input,
+textarea {
+  background-color: var(--lightBlue);
+  color: var(--blackish);
+  border: 0.1rem solid var(--whitish);
+}
+input {
+  height: 2rem;
+}
+
+#formText {
+  height: 8rem;
+}
+#formButton {
+  width: 30%;
+  margin: 1rem auto 0 auto;
+  background-color: var(--lightBlue);
+  border: 0.1rem solid var(--whitish);
+  cursor: pointer;
+}
+#formButton:focus {
+  background-color: var(--midBlue);
+}
+.socialContainer {
+  display: grid;
+  grid-template-columns: 10% 10% 80%;
+  grid-template-areas: "linkedin github .";
+  grid-gap: 0;
+  margin-top: 1rem;
+}
+.socialIcons {
+  width: 2rem;
+}
+#linkedinLink {
+  grid-area: linkedin;
+}
+#githubLink {
+  grid-area: github;
+} */

@@ -1,10 +1,10 @@
+import Langages from "../components/skills/Langages";
+import "../style/skills.css";
 function Skills(){
     return(
-        <section>
-            <article>
-                <h3>Langages</h3>
-            </article>
-        </section>
+        <div className="skillsContainer">
+            <Langages />
+        </div>
     )
 };
 
