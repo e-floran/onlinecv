@@ -40,7 +40,7 @@ header {
 
 .headerList:hover,
 .headerButton:hover,
-li:hover {
+.headerList li:hover {
   cursor: pointer;
 }
 
@@ -60,7 +60,7 @@ li:hover {
   border: none;
 }
 
-li {
+.headerList li {
   width: 100%;
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
@@ -68,17 +68,17 @@ li {
   color: var(--whitish);
   display: none;
 }
-li:hover {
+.headerList li:hover {
   background-color: var(--midBlue);
 }
-.displayed {
+.headerList .displayed {
   display: inline;
 }
-li a {
+.headerList li a {
   text-decoration: none;
   color: var(--whitish);
   padding: 0.5rem 4rem 0.5rem 0;
 }
-li a:hover {
+.headerList li a:hover {
   background-color: var(--midBlue);
 }

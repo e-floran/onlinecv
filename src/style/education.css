@@ -8,6 +8,7 @@
 }
 
 h3,
+h4,
 p,
 label {
   color: var(--whitish);
@@ -18,7 +19,15 @@ h3 {
   font-size: 1.5rem;
   color: var(--lightBlue) !important;
 }
-
+h4 {
+  font-size: 1rem;
+  padding: 0 2rem;
+}
+.pageIntro {
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 0 1.5rem 0;
+}
 .sectionContainer {
   width: 100%;
   padding: 0 1rem;
@@ -33,30 +42,6 @@ h3 {
   grid-gap: 0;
   padding: 0;
   margin: 0;
-}
-
-p:nth-of-type(even) {
-  text-align: right;
-}
-p:nth-of-type(odd) {
-  text-align: left;
-}
-
-.knowMe .sectionTitle {
-  grid-row: 1/2;
-}
-.knowDetails {
-  width: 100%;
-  margin: 0;
-  padding: 0 1rem 0 0;
-  grid-row: 3/4;
-}
-
-.profilePic {
-  width: 100%;
-  border: 0.05rem solid var(--whitish);
-  grid-row: 2/3;
-  margin-bottom: 1rem;
 }
 .pulsarContainer {
   width: 100%;
@@ -87,61 +72,70 @@ p:nth-of-type(odd) {
     box-shadow: 0 0 0 0 rgba(123, 226, 230, 0);
   }
 }
-.formContainer {
-  width: 100%;
-  padding: 0 1rem;
-  margin: 0 0 1.5rem 0;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-gap: 0;
+.courseDot {
+  display: inline-block;
+  background: var(--lightBlue);
+  height: 0.75rem !important;
+  width: 0.5rem !important;
+  margin-right: 0.5rem;
 }
-#homeForm {
-  display: none;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-gap: 0;
-  display: none;
-  margin-top: 0.5rem;
-}
-label {
-  margin-top: 1rem;
-}
-input,
-textarea {
-  background-color: var(--lightBlue);
-  color: var(--blackish);
-  border: 0.1rem solid var(--whitish);
-}
-input {
-  height: 2rem;
-}
-
-#formText {
-  height: 8rem;
-}
-#formButton {
-  width: 30%;
-  margin: 1rem auto 0 auto;
-  background-color: var(--lightBlue);
-  border: 0.1rem solid var(--whitish);
+.courseTitle a {
+  text-decoration: none;
+  color: var(--midBlue);
   cursor: pointer;
 }
-#formButton:focus {
-  background-color: var(--midBlue);
+.courseTitle a:hover {
+  color: var(--lightBlue);
 }
-.socialContainer {
+.detailsContainer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
   display: grid;
-  grid-template-columns: 10% 10% 80%;
-  grid-template-areas: "linkedin github .";
+  grid-template-columns: 33.33% 33.33% 33.33%;
   grid-gap: 0;
-  margin-top: 1rem;
 }
-.socialIcons {
-  width: 2rem;
+.courseDetails {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
 }
-#linkedinLink {
-  grid-area: linkedin;
+.detailsContainer button,
+.courseDetails button {
+  width: 100%;
+  height: 1.75rem;
+  margin: 0 0 0.5rem 0;
+  padding: 0.25rem 0;
+  border: 0.1rem solid var(--whitish);
+  cursor: pointer;
+  background-color: var(--midBlue);
+  color: var(--whitish);
+  font-family: "Squada One", cursive;
+  text-align: center;
 }
-#githubLink {
-  grid-area: github;
+.courseList {
+  width: 100%;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+  color: var(--whitish);
+}
+.courseList li {
+  width: 100%;
+  /* padding: 0.5rem 1rem; */
+  /* font-size: 1rem; */
+  background-color: none;
+  color: var(--whitish);
+  font-family: "Squada One", cursive;
+  text-align: center;
+  display: none;
+}
+.courseList .displayed {
+  display: inline;
 }

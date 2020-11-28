@@ -1,6 +1,6 @@
 function KnowMe(){
     return(
-        <section className="knowMe">
+        <section className="sectionContainer">
             <article className="sectionTitle">
                 <div className="pulsarContainer">
                     <div className="pulsar"></div>

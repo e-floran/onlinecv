@@ -1,4 +1,4 @@
-.skillsContainer {
+.pageContainer {
   width: 100%;
   position: absolute;
   top: 8rem;
@@ -17,6 +17,11 @@ label {
 h3 {
   font-size: 1.5rem;
   color: var(--lightBlue) !important;
+}
+.pageIntro {
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 0 1.5rem 0;
 }
 .sectionTitle {
   display: grid;
@@ -86,96 +91,3 @@ h3 {
   width: 1rem !important;
   margin-top: 0.4rem;
 }
-/* 
-
-
-
-p:nth-of-type(even) {
-  text-align: right;
-}
-p:nth-of-type(odd) {
-  text-align: left;
-}
-.knowMe {
-  width: 100%;
-  padding: 0 1rem;
-  margin: 0 0 1.5rem 0;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-gap: 0;
-}
-.knowMe .sectionTitle {
-  grid-row: 1/2;
-}
-.knowDetails {
-  width: 100%;
-  margin: 0;
-  padding: 0 1rem 0 0;
-  grid-row: 3/4;
-}
-
-.profilePic {
-  width: 100%;
-  border: 0.05rem solid var(--whitish);
-  grid-row: 2/3;
-  margin-bottom: 1rem;
-}
-
-.formContainer {
-  width: 100%;
-  padding: 0 1rem;
-  margin: 0 0 1.5rem 0;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-gap: 0;
-}
-#homeForm {
-  display: none;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-gap: 0;
-  display: none;
-  margin-top: 0.5rem;
-}
-label {
-  margin-top: 1rem;
-}
-input,
-textarea {
-  background-color: var(--lightBlue);
-  color: var(--blackish);
-  border: 0.1rem solid var(--whitish);
-}
-input {
-  height: 2rem;
-}
-
-#formText {
-  height: 8rem;
-}
-#formButton {
-  width: 30%;
-  margin: 1rem auto 0 auto;
-  background-color: var(--lightBlue);
-  border: 0.1rem solid var(--whitish);
-  cursor: pointer;
-}
-#formButton:focus {
-  background-color: var(--midBlue);
-}
-.socialContainer {
-  display: grid;
-  grid-template-columns: 10% 10% 80%;
-  grid-template-areas: "linkedin github .";
-  grid-gap: 0;
-  margin-top: 1rem;
-}
-.socialIcons {
-  width: 2rem;
-}
-#linkedinLink {
-  grid-area: linkedin;
-}
-#githubLink {
-  grid-area: github;
-} */

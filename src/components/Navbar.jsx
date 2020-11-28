@@ -22,7 +22,7 @@ function Navbar(){
                 } onClick={handleOpen}><Link to={`/skills`}>Compétences</Link></li>
                 <li className={
                     open?"displayed" : ""
-                } onClick={handleOpen}><Link to={`/skills`}>Formations</Link></li>
+                } onClick={handleOpen}><Link to={`/education`}>Formations</Link></li>
                 <li className={
                     open?"displayed" : ""
                 } onClick={handleOpen}><Link to={`/skills`}>Expériences</Link></li>

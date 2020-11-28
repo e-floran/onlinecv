@@ -4,7 +4,7 @@ import Contact from "../components/Contact";
 import '../style/home.css';
 function Home(){
     return(
-        <div className="homeContainer">
+        <div className="pageContainer">
             <Description />
             <KnowMe />
             <Contact />
