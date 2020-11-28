@@ -6,6 +6,14 @@ function OtherSkills(){
             name:"Capacités rédactionnelles",
             level:11,
         },
+        {
+            name:"Animation de communauté",
+            level:7,
+        },
+        {
+            name:"Réseaux sociaux",
+            level:8,
+        },
     ]
     const otherSkills=[];
     for (let i=0;i<myOtherSkills.length;i++) {

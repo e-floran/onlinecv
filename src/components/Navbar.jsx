@@ -16,16 +16,16 @@ function Navbar(){
             <ul className="headerList">
                 <li className={
                     open?"displayed" : ""
-                }><Link to={`/`}>Accueil</Link></li>
+                } onClick={handleOpen}><Link to={`/`}>Accueil</Link></li>
                 <li className={
                     open?"displayed" : ""
-                }><Link to={`/skills`}>Compétences</Link></li>
+                } onClick={handleOpen}><Link to={`/skills`}>Compétences</Link></li>
                 <li className={
                     open?"displayed" : ""
-                }><Link to={`/skills`}>Formations</Link></li>
+                } onClick={handleOpen}><Link to={`/skills`}>Formations</Link></li>
                 <li className={
                     open?"displayed" : ""
-                }><Link to={`/skills`}>Expériences</Link></li>
+                } onClick={handleOpen}><Link to={`/skills`}>Expériences</Link></li>
             </ul>
         </nav>
     )

@@ -74,11 +74,11 @@ li:hover {
 .displayed {
   display: inline;
 }
-a {
+li a {
   text-decoration: none;
   color: var(--whitish);
   padding: 0.5rem 4rem 0.5rem 0;
 }
-a:hover {
+li a:hover {
   background-color: var(--midBlue);
 }
