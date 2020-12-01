@@ -104,6 +104,7 @@ h5 {
   display: grid;
   grid-template-columns: 100%;
   grid-gap: 0;
+  z-index: 8;
 }
 .soloDetail,
 .courseDetails button {
@@ -122,6 +123,7 @@ h5 {
   width: 80% !important;
   background-color: var(--lightBlue);
   color: var(--blackish);
+  border: 0.1rem solid var(--blackish);
   cursor: default;
 }
 .courseList {

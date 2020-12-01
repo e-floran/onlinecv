@@ -15,6 +15,10 @@ function Langages(){
             level:6,
         },
         {
+            name:"Node.js",
+            level:3,
+        },
+        {
             name:"TypeScript",
             level:3,
         },
@@ -24,7 +28,7 @@ function Langages(){
         },
         {
             name:"SQL",
-            level:2,
+            level:4,
         },
         {
             name:"Python",
