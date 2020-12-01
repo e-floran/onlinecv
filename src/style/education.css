@@ -72,6 +72,12 @@ h5 {
     box-shadow: 0 0 0 0 rgba(123, 226, 230, 0);
   }
 }
+.course {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+}
 .courseDot {
   display: inline-block;
   background: var(--lightBlue);
