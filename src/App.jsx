@@ -3,6 +3,7 @@ import Header from "./components/Header"
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
 import Education from "./pages/Education";
+import Experience from "./pages/Experience";
 import './App.css';
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route path="/education">
             <Education />
+          </Route>
+          <Route path="/experience">
+            <Experience />
           </Route>
         </Switch>
       </Router>
