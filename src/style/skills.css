@@ -19,6 +19,7 @@
 }
 .pointsContainer {
   width: 100%;
+  max-width: 600px;
   display: grid;
   grid-template-columns: repeat(12, auto);
   grid-gap: 0;
@@ -29,9 +30,28 @@
   width: 1rem !important;
   margin-top: 0.4rem;
 }
+
+@keyframes coloring {
+  0% {
+    background: var(--darkBlue);
+  }
+
+  20% {
+    background: var(--lightBlue);
+  }
+
+  100% {
+    background: var(--lightBlue);
+  }
+}
 .noPoint {
   background: none;
   height: 0.5rem !important;
   width: 1rem !important;
   margin-top: 0.4rem;
 }
+/* @media only screen and (min-width: 801px) {
+  .pointsContainer{
+    max-width
+  }
+} */
