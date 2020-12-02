@@ -26,7 +26,7 @@ function Social(){
                 : "/files/linkedin_whitish.png"
                 } alt="Linkedin" className="socialIcons" id="linkedin" onMouseOver={handleHover} onMouseOut={handleLeave}></img>
             </a>
-            <a href="https://www.linkedin.com/in/floran-eiclies-090baa6a/" id="githubLink">
+            <a href="https://github.com/e-floran" id="githubLink">
                 <img src={
                 hoveredGithub
                 ? "/files/github_lightBlue.png"

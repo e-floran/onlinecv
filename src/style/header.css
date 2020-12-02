@@ -84,12 +84,14 @@ header {
 }
 @media only screen and (min-width: 801px) {
   .headerButton {
+    min-width: 280px;
     padding: 0.46rem 1rem;
   }
   .headerList {
     width: 50%;
+    min-width: 280px;
   }
   .headerList li a {
-    padding: 0.5rem 8rem 0.5rem 0;
+    padding: 0.5rem 6.75rem 0.5rem 0;
   }
 }

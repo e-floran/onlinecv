@@ -4,7 +4,7 @@ function Skill(props){
     const levels=[];
     for (let i=0;i<level;i++) {
         let j=i/2;
-        levels.push(<div key={i} className="skillPoint" style={{animation: `coloring 20s linear ${j}s infinite`}}/>);
+        levels.push(<div key={i} className="skillPoint" style={{animation: `coloring 300s linear ${j}s infinite`}}/>);
     };
     if (levels.length<12){
         for (let i=levels.length;i<12;i++){

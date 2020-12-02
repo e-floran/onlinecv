@@ -1,6 +1,6 @@
 h5 {
   font-size: 1rem;
-  padding: 0 2rem;
+  padding: 0 0 0 2rem;
 }
 
 .course {
@@ -23,4 +23,8 @@ h5 {
 }
 .courseTitle a:hover {
   color: var(--lightBlue);
+}
+.inProgress {
+  display: grid;
+  grid-template-columns: auto auto !important;
 }

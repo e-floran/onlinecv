@@ -65,13 +65,22 @@ p:nth-of-type(odd) {
   justify-content: center;
   align-items: flex-start;
 }
-.pulsar {
+.pulsar,
+.miniPulsar {
   background: var(--lightBlue);
   box-shadow: 0 0 0 0 rgba(123, 226, 230, 1);
+}
+.pulsar {
   height: 1rem !important;
   width: 1rem !important;
   margin-top: 0.4rem;
   animation: pulsed 2s infinite;
+}
+.miniPulsar {
+  display: inline-block;
+  height: 0.5rem !important;
+  width: 0.5rem !important;
+  margin-left: 0.75rem;
 }
 
 @keyframes pulsed {
