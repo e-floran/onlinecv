@@ -5,7 +5,7 @@ import "../style/experience.css";
 function Experience(){
     return(
         <div className="pageContainer">
-            <p className="pageIntro">En attendant ma première expérience professionnelle en tant que développeur web, j'ai réalisé plusieurs projets, dans le cadre de ma formation ou en parrallèle.</p>
+            <p className="pageIntro">En attendant ma première expérience professionnelle en tant que développeur web, j'ai réalisé plusieurs projets, dans le cadre de ma formation ou en parallèle.</p>
             <Projects />
             <Work />
             <Contact />
