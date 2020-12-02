@@ -16,6 +16,14 @@
 .projectTitle {
   width: 100%;
   text-align: center;
+  margin: 0 !important;
+}
+.projectDate {
+  width: 100%;
+  margin: 0.25rem 0 0.5rem 0;
+  color: var(--whitish);
+  font-size: 0.75rem;
+  text-align: center;
 }
 .projectTitle a {
   text-decoration: none;
