@@ -1,7 +1,12 @@
+import UseWindowSize from "../UseWindowSize";
+
 function KnowMe(){
+    
+    const width=UseWindowSize();
+      
     return(
-        <section className="sectionContainer">
-            <article className="sectionTitle">
+        <section className="sectionContainer knowMe">
+            <article className="sectionTitle knowTitle">
                 <div className="pulsarContainer">
                     <div className="pulsar"></div>
                 </div>
@@ -13,7 +18,10 @@ function KnowMe(){
                 <p>J'apprécie également me détendre avec des jeux de société ou des jeux vidéo, surtout à plusieurs pour un moment de convivialité.</p>
                 <p>Enfin, mon loisir principal au quotidien reste la cuisine, que ce soit pour ma compagne, ma fille ou mes amis. J'aime y mélanger les saveurs d'horizons différents.</p>
             </article>
-            <img className="profilePic" src="/files/floran_eiclies_mobile.png" alt="Floran Eiclies"></img>
+            <img className="profilePic" src={width>800
+                ?"/files/floran_eiclies.png"
+                :"/files/floran_eiclies_mobile.png"
+            } alt="Floran Eiclies"></img>
         </section>
     )
 }

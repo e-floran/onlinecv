@@ -82,3 +82,14 @@ header {
 .headerList li a:hover {
   background-color: var(--midBlue);
 }
+@media only screen and (min-width: 801px) {
+  .headerButton {
+    padding: 0.46rem 1rem;
+  }
+  .headerList {
+    width: 50%;
+  }
+  .headerList li a {
+    padding: 0.5rem 8rem 0.5rem 0;
+  }
+}

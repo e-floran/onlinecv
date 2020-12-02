@@ -12,6 +12,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 0;
+  grid-auto-rows: max-content;
 }
 .projectTitle {
   width: 100%;
@@ -43,9 +44,17 @@
   grid-gap: 0.5rem;
 }
 .techno {
-  width: 100;
+  height: 1.25rem;
   background-color: var(--lightBlue);
   color: var(--blackish);
   text-align: center !important;
   padding: 0.1rem 0;
+}
+@media only screen and (min-width: 801px) {
+  .projectsContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+  }
 }
