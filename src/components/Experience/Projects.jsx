@@ -1,5 +1,7 @@
 import WildDisaster from "./WildDisaster";
 import Portfolio from "./Portfolio";
+import UberArts from "./UberArts";
+import Papilles from "./Papilles";
 
 function Projects(){
     return(
@@ -13,6 +15,8 @@ function Projects(){
             <div className="projectsContainer">
                 <Portfolio />
                 <WildDisaster />
+                <UberArts />
+                <Papilles />
             </div>
         </section>
     )

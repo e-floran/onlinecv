@@ -6,6 +6,7 @@ function WildDisaster(){
             <a href="https://wild-disaster.netlify.app/"><img className="projectImage" src="/files/wild_disaster.png" alt="Wild Disaster"></img></a>
             <div className="technoContainer">
                 <p className="techno">React</p>
+                <p className="techno">CSS</p>
             </div>
         </article>
     )
