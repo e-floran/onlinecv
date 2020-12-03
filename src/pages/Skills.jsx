@@ -7,7 +7,7 @@ import Contact from "../components/Contact";
 import "../style/skills.css";
 function Skills(){
     return(
-        <div className="pageContainer">
+        <div className="pageContainer skillsPage">
             <p className="pageIntro">Le métier de développeur fait appel à de nombreuses compétences, qu'elles soient techniques ou pas. J'ai à coeur de rester polyvalent, pour pouvoir m'adapter aux missions que me confie mon employeur.</p>
             <p className="pageIntro">Évidemment, cette page est une "photographie" à l'instant t, je me forme en permanence pour élargir mes compétences.</p>
             <Langages />

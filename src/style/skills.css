@@ -50,3 +50,8 @@
   width: 1rem !important;
   margin-top: 0.4rem;
 }
+@media only screen and (min-width: 801px) {
+  .skillsPage {
+    grid-template-areas: "." "." "." "." "." "." "." "formContainer" !important;
+  }
+}

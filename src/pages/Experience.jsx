@@ -4,7 +4,7 @@ import Contact from "../components/Contact";
 import "../style/experience.css";
 function Experience(){
     return(
-        <div className="pageContainer">
+        <div className="pageContainer expPage">
             <p className="pageIntro">En attendant ma première expérience professionnelle en tant que développeur web, j'ai réalisé plusieurs projets, dans le cadre de ma formation ou en parallèle.</p>
             <Projects />
             <Work />
