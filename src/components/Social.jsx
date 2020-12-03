@@ -19,7 +19,7 @@ function Social(){
     };
     return(
         <article className="socialContainer">
-            <a href="https://www.linkedin.com/in/floran-eiclies-090baa6a/" id="linkedinLink">
+            <a href="https://www.linkedin.com/in/floran-eiclies/" id="linkedinLink">
                 <img src={
                 hoveredLinkedin
                 ? "/files/linkedin_lightBlue.png"
