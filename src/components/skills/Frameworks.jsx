@@ -7,6 +7,10 @@ function Frameworks(){
             level:8,
         },
         {
+            name:"Vue",
+            level:2,
+        },
+        {
             name:"Express",
             level:2,
         },

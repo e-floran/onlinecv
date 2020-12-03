@@ -27,6 +27,7 @@ h3 {
   display: grid;
   grid-template-columns: 100%;
   grid-gap: 0;
+  grid-auto-rows: max-content;
 }
 .sectionTitle {
   display: grid;
@@ -34,20 +35,16 @@ h3 {
   grid-gap: 0;
   padding: 0;
   margin: 0;
+  grid-auto-rows: max-content;
 }
 
 p:nth-of-type(even) {
   text-align: right;
+  grid-auto-rows: max-content;
 }
 p:nth-of-type(odd) {
   text-align: left;
-}
-
-.knowDetails {
-  width: 100%;
-  margin: 0;
-  padding: 0 1rem 0 0;
-  grid-row: 3/4;
+  grid-auto-rows: max-content;
 }
 
 .profilePic {
@@ -98,7 +95,6 @@ p:nth-of-type(odd) {
 }
 .formContainer {
   width: 100%;
-  padding: 0 1rem;
   margin: 0 0 1.5rem 0;
   display: grid;
   grid-template-columns: 100%;
@@ -157,6 +153,7 @@ input {
 @media only screen and (min-width: 801px) {
   .homePage {
     grid-template-columns: 1fr 1fr !important;
+    grid-template-rows: auto auto auto !important;
     grid-template-areas: ". profilePic" ". profilePic" "formContainer formContainer" !important;
   }
   .profilePic {

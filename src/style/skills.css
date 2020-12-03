@@ -54,4 +54,7 @@
   .skillsPage {
     grid-template-areas: "." "." "." "." "." "." "." "formContainer" !important;
   }
+  .skillContainer {
+    grid-template-columns: 17% 83%;
+  }
 }
