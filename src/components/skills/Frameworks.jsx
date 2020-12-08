@@ -4,7 +4,7 @@ function Frameworks(){
     const myFrameworks=[
         {
             name:"React",
-            level:8,
+            level:7,
         },
         {
             name:"Vue",

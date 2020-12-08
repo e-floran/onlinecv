@@ -1,5 +1,6 @@
 import WildDisaster from "./WildDisaster";
 import Portfolio from "./Portfolio";
+import OFF from "./OFF";
 import UberArts from "./UberArts";
 import Papilles from "./Papilles";
 
@@ -13,6 +14,7 @@ function Projects(){
                 <h3>Projets</h3>
             </article>
             <div className="projectsContainer">
+                <OFF />
                 <Portfolio />
                 <WildDisaster />
                 <UberArts />

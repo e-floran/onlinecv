@@ -4,15 +4,15 @@ function Tools(){
     const myTools=[
         {
             name:"Git",
-            level:7,
+            level:5,
         },
         {
             name:"GitHub",
-            level:8,
+            level:7,
         },
         {
             name:"VS code",
-            level:7,
+            level:8,
         },
         {
             name:"Bureautique",
