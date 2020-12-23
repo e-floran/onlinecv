@@ -8,11 +8,11 @@ function Frameworks(){
         },
         {
             name:"Vue",
-            level:2,
+            level:4,
         },
         {
             name:"Express",
-            level:2,
+            level:3,
         },
         {
             name:"Bootstrap",

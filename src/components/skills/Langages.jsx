@@ -28,7 +28,7 @@ function Langages(){
         },
         {
             name:"SQL",
-            level:4,
+            level:5,
         },
         {
             name:"Python",

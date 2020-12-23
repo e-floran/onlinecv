@@ -15,7 +15,7 @@ function SoftSkills(){
             level:12,
         },
         {
-            name:"Management",
+            name:"Leadership",
             level:8,
         },
         {

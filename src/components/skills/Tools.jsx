@@ -8,11 +8,19 @@ function Tools(){
         },
         {
             name:"GitHub",
-            level:7,
+            level:6,
         },
         {
             name:"VS code",
             level:8,
+        },
+        {
+            name:"MySQL",
+            level:5,
+        },
+        {
+            name:"PostgreSQL",
+            level:3,
         },
         {
             name:"Bureautique",
@@ -23,7 +31,7 @@ function Tools(){
             level:10,
         },
         {
-            name:"CMS, design",
+            name:"CMS, montage",
             level:12,
         },
         {
