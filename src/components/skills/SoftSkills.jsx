@@ -11,6 +11,10 @@ function SoftSkills(){
             level:11,
         },
         {
+            name:"Esprit d'équipe",
+            level:12,
+        },
+        {
             name:"Autonomie",
             level:12,
         },
