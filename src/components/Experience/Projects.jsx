@@ -3,6 +3,7 @@ import Portfolio from "./Portfolio";
 import OFF from "./OFF";
 import UberArts from "./UberArts";
 import Papilles from "./Papilles";
+import Cabinet from "./Cabinet";
 
 function Projects(){
     return(
@@ -15,6 +16,7 @@ function Projects(){
             </article>
             <div className="projectsContainer">
                 <OFF />
+                <Cabinet />
                 <Portfolio />
                 <WildDisaster />
                 <UberArts />

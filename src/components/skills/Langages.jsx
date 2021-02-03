@@ -15,10 +15,6 @@ function Langages(){
             level:6,
         },
         {
-            name:"Node.js",
-            level:3,
-        },
-        {
             name:"TypeScript",
             level:3,
         },
