@@ -1,3 +1,4 @@
+import Uballers from "./Uballers";
 import DordogneLibre from "./DordogneLibre";
 import RepPyrenees from "./RepubliquePyrenees";
 import Dauphine from "./Dauphine";
@@ -13,6 +14,7 @@ function Work(){
                 <h3>Expériences professionnelles</h3>
             </article>
             <div className="projectsContainer">
+                <Uballers />
                 <DordogneLibre />
                 <RepPyrenees />
                 <Dauphine />
