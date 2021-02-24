@@ -30,13 +30,20 @@
 .projectTitle a {
   text-decoration: none;
   color: var(--midBlue);
-  cursor: pointer;
 }
 .projectTitle a:hover {
   color: var(--lightBlue);
 }
 .projectImage {
   width: 100%;
+}
+.project > p > a {
+  font-family: "Squada One", cursive;
+  text-decoration: none;
+  color: var(--midBlue);
+}
+.project > p > a:hover {
+  color: var(--lightBlue);
 }
 .technoContainer {
   width: 100%;
