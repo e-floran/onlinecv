@@ -29,10 +29,10 @@
 }
 .projectTitle a {
   text-decoration: none;
-  color: var(--midBlue);
+  color: var(--CVprimaryAlt);
 }
 .projectTitle a:hover {
-  color: var(--lightBlue);
+  color: var(--CVsecondary);
 }
 .projectImage {
   width: 100%;
@@ -40,10 +40,10 @@
 .project > p > a {
   font-family: "Squada One", cursive;
   text-decoration: none;
-  color: var(--midBlue);
+  color: var(--CVprimaryAlt);
 }
 .project > p > a:hover {
-  color: var(--lightBlue);
+  color: var(--CVsecondary);
 }
 .technoContainer {
   width: 100%;
@@ -53,7 +53,7 @@
 }
 .techno {
   height: 1.25rem;
-  background-color: var(--lightBlue);
+  background-color: var(--CVsecondary);
   color: var(--blackish);
   text-align: center !important;
   padding: 0.1rem 0;

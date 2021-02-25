@@ -18,7 +18,7 @@ label {
 }
 h3 {
   font-size: 1.5rem;
-  color: var(--lightBlue) !important;
+  color: var(--CVsecondary) !important;
 }
 
 .sectionContainer {
@@ -64,7 +64,7 @@ p:nth-of-type(odd) {
 }
 .pulsar,
 .miniPulsar {
-  background: var(--lightBlue);
+  background: var(--CVsecondary);
   box-shadow: 0 0 0 0 rgba(123, 226, 230, 1);
 }
 .pulsar {
@@ -82,7 +82,7 @@ p:nth-of-type(odd) {
 
 @keyframes pulsed {
   0% {
-    box-shadow: 0 0 0 0 rgba(123, 226, 230, 0.7);
+    box-shadow: 0 0 0 0 rgba(250, 103, 43, 0.7);
   }
 
   70% {
@@ -113,7 +113,7 @@ label {
 }
 input,
 textarea {
-  background-color: var(--lightBlue);
+  background-color: var(--CVsecondary);
   color: var(--blackish);
   border: 0.1rem solid var(--whitish);
 }
@@ -127,12 +127,12 @@ input {
 #formButton {
   width: 30%;
   margin: 1rem auto 0 auto;
-  background-color: var(--lightBlue);
+  background-color: var(--CVsecondary);
   border: 0.1rem solid var(--whitish);
   cursor: pointer;
 }
 #formButton:focus {
-  background-color: var(--midBlue);
+  background-color: var(--CVprimaryAlt);
 }
 .socialContainer {
   display: grid;

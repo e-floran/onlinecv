@@ -25,7 +25,7 @@
   grid-gap: 0;
 }
 .skillPoint {
-  background: var(--darkBlue);
+  background: var(--CVprimary);
   height: 0.5rem !important;
   width: 1rem !important;
   margin-top: 0.4rem;
@@ -33,15 +33,15 @@
 
 @keyframes coloring {
   0% {
-    background: var(--darkBlue);
+    background: var(--CVprimary);
   }
 
   1% {
-    background: var(--lightBlue);
+    background: var(--CVsecondary);
   }
 
   100% {
-    background: var(--lightBlue);
+    background: var(--CVsecondary);
   }
 }
 .noPoint {

@@ -11,18 +11,18 @@ h5 {
 }
 .courseDot {
   display: inline-block;
-  background: var(--lightBlue);
+  background: var(--CVsecondary);
   height: 0.75rem !important;
   width: 0.5rem !important;
   margin-right: 0.5rem;
 }
 .courseTitle a {
   text-decoration: none;
-  color: var(--midBlue);
+  color: var(--CVprimaryAlt);
   cursor: pointer;
 }
 .courseTitle a:hover {
-  color: var(--lightBlue);
+  color: var(--CVsecondary);
 }
 .inProgress {
   display: grid;
