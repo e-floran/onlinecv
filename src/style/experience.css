@@ -37,6 +37,10 @@
 .projectImage {
   width: 100%;
 }
+.mobileImage {
+  max-height: 300px;
+  object-fit: contain;
+}
 .project > p > a {
   font-family: "Squada One", cursive;
   text-decoration: none;

@@ -1,43 +1,53 @@
 import Skill from "./Skill";
 
-function Frameworks(){
-    const myFrameworks=[
-        {
-            name:"React",
-            level:7,
-        },
-        {
-            name:"Vue",
-            level:5,
-        },
-        {
-            name:"Node.js",
-            level:3,
-        },
-        {
-            name:"Express",
-            level:4,
-        },
-        {
-            name:"Bootstrap",
-            level:4,
-        },
-    ]
-    const frameworks=[];
-    for (let i=0;i<myFrameworks.length;i++) {
-        frameworks.push(<Skill key={myFrameworks[i].name} name={myFrameworks[i].name} level={myFrameworks[i].level}/>);
-    };
-    return(
-        <section className="skillset">
-            <article className="sectionTitle">
-                <div className="pulsarContainer">
-                    <div className="pulsar"></div>
-                </div>
-                <h3>Frameworks et librairies</h3>
-            </article>
-            {frameworks}
-        </section>
-    )
-};
+function Frameworks() {
+  const myFrameworks = [
+    {
+      name: "React",
+      level: 8,
+    },
+    {
+      name: "React Native",
+      level: 5,
+    },
+    {
+      name: "Vue",
+      level: 5,
+    },
+    {
+      name: "Node.js",
+      level: 3,
+    },
+    {
+      name: "Express",
+      level: 5,
+    },
+    {
+      name: "Bootstrap",
+      level: 4,
+    },
+  ];
+  const frameworks = [];
+  for (let i = 0; i < myFrameworks.length; i++) {
+    frameworks.push(
+      <Skill
+        key={myFrameworks[i].name}
+        name={myFrameworks[i].name}
+        level={myFrameworks[i].level}
+      />
+    );
+  }
+  return (
+    <section className="skillset">
+      <article className="sectionTitle">
+        <div className="pulsarContainer">
+          <div className="pulsar"></div>
+        </div>
+        <h3>Frameworks et librairies</h3>
+      </article>
+      {frameworks}
+    </section>
+  );
+}
 
 export default Frameworks;
