@@ -4,6 +4,7 @@ import RepPyrenees from "./RepubliquePyrenees";
 import Dauphine from "./Dauphine";
 import Strategies from "./Strategies";
 import MDDynamics from "./MDDynamics";
+import Polyconseil from "./Polyconseil";
 
 function Work() {
   return (
@@ -15,6 +16,7 @@ function Work() {
         <h3>Expériences professionnelles</h3>
       </article>
       <div className="projectsContainer">
+        <Polyconseil />
         <MDDynamics />
         <Uballers />
         <DordogneLibre />

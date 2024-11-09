@@ -7,15 +7,23 @@
   width: 100%;
   padding: 0 1rem;
   margin: 0 0 1.5rem 0;
-  display: grid;
+  /* display: grid;
   grid-template-columns: 100%;
-  grid-gap: 0;
+  grid-gap: 0; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: start;
 }
 .skillContainer {
-  width: 100%;
+  width: 25%;
+  /* width: 100%;
   display: grid;
   grid-template-columns: 24% 76%;
-  grid-gap: 0;
+  grid-gap: 0; */
+}
+.skillContainer > p {
+  text-align: center;
 }
 .pointsContainer {
   width: 100%;
@@ -54,7 +62,7 @@
   .skillsPage {
     grid-template-areas: "." "." "." "." "." "." "." "formContainer" !important;
   }
-  .skillContainer {
+  /* .skillContainer {
     grid-template-columns: 17% 83%;
-  }
+  } */
 }

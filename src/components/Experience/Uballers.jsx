@@ -2,7 +2,7 @@ function Uballers() {
   return (
     <article className="project">
       <h5 className="projectTitle">Uballers</h5>
-      <h6 className="projectDate">télétravail, 2021</h6>
+      <h6 className="projectDate">télétravail (Paris), 2021</h6>
       <p>
         Pour lancer ma carrière de développeur web, j'ai eu la chance de pouvoir
         participer à ce projet ambitieux :{" "}

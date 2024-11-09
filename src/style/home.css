@@ -30,6 +30,7 @@ h3 {
   grid-auto-rows: max-content;
 }
 .sectionTitle {
+  width: 100%;
   display: grid;
   grid-template-columns: 10% 90%;
   grid-gap: 0;

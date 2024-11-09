@@ -1,26 +1,10 @@
 function MDDynamics() {
   return (
     <article className="project">
-      <h5 className="projectTitle">
-        MD Dynamics{" "}
-        <span>
-          <span
-            className="miniPulsar"
-            style={{ animation: `pulsed 2s linear 0.5s infinite` }}
-          />
-          <span
-            className="miniPulsar"
-            style={{ animation: `pulsed 2s linear 0.75s infinite` }}
-          />
-          <span
-            className="miniPulsar"
-            style={{ animation: `pulsed 2s linear 1s infinite` }}
-          />
-        </span>
-      </h5>
-      <h6 className="projectDate">télétravail, depuis juin 2021</h6>
+      <h5 className="projectTitle">MD Dynamics</h5>
+      <h6 className="projectDate">télétravail (Agen), 2021 - 2022</h6>
       <p>
-        Ma première expérience en tant que développeur fullstack me plonge dans
+        Ma première expérience en tant que développeur fullstack m'a plongé dans
         l'univers du développement et de l'exploitation des applications métiers
         distribuées, au service des entreprises :{" "}
         <a href="https://www.mddynamics.fr/" title="Site de MD DYnamics">

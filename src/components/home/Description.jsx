@@ -8,9 +8,9 @@ function Description() {
         <h3>Mon parcours</h3>
       </article>
       <p>
-        Je suis actuellement développeur web chez MD Dynamics. J'apporte une
-        vraie passion pour le développement mais aussi un profil atypique
-        enrichi par ma première vie professionnelle.
+        Je suis actuellement développeur chez Polyconseil. J'apporte une vraie
+        passion pour le développement mais aussi un profil atypique enrichi par
+        ma première vie professionnelle.
       </p>
       <p>
         En effet, après plusieurs expériences réussies dans la presse et après

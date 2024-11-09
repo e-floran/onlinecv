@@ -11,7 +11,11 @@ function Frameworks() {
       level: 5,
     },
     {
-      name: "Vue",
+      name: "Next.js",
+      level: 5,
+    },
+    {
+      name: "Vue.js",
       level: 5,
     },
     {
@@ -20,6 +24,22 @@ function Frameworks() {
     },
     {
       name: "Express",
+      level: 5,
+    },
+    {
+      name: "PostgreSQL",
+      level: 5,
+    },
+    {
+      name: "MySQL",
+      level: 5,
+    },
+    {
+      name: "GraphQL",
+      level: 5,
+    },
+    {
+      name: "TypeORM",
       level: 5,
     },
     {
